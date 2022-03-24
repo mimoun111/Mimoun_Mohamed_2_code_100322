@@ -13,9 +13,20 @@ body {
     text-align: center;
     font-size: 1.5em;
 }
+.flexcolumn{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 20px;
+    padding-top: 20px;
+    font-size: 1em;
+}
 .director{
     color: #000000;
     font-size: 1.2em;
+}
+a{
+    text-decoration: none;
 }
 a,
 button {
@@ -24,7 +35,7 @@ button {
 }
 
 a:hover {
-    text-decoration: none;
+    text-decoration: underline;
     cursor: pointer;
 }
 
